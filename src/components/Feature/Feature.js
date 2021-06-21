@@ -2,9 +2,9 @@ import React from 'react';
 
 const Feature = () => {
     return (
-        <section className="features-service pb-0 pb-md-5 my-5">
-        <div className="container mb-5">
-            <div className="row mb-5">
+        <section className="features-service bg pb-0 pb-md-5 my-5">
+        <div className="container mb-5 d-flex flex-column-reverse bd-highlight">
+            <div className="row mb-5 text-center text-lg-start">
                 <div className="col-md-6 mb-4 m-md-0 d-flex justify-content-center">
                     <img className="img-fluid" src="/feature1.svg" alt=""/>
                 </div>

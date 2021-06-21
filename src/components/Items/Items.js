@@ -1,51 +1,37 @@
 import React from 'react';
-import { Button, Card, CardGroup } from 'react-bootstrap';
+
+import './Items.css'
 
 const Items = () => {
     return (
         <div className="container">
-        <CardGroup>
-        <Card className="m-2">
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-          <Button variant="primary">Go somewhere</Button>
-          </Card.Footer>
-        </Card>
-        <Card className="m-2">
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to additional
-              content.{' '}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-          <Button variant="primary">Go somewhere</Button>
-          </Card.Footer>
-        </Card>
-        <Card className="m-2">
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to
-              show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-          <Button variant="primary">Go somewhere</Button>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+        <div className="row text-center text-lg-start">
+          <div className="col-md-4">
+           <div className="mx-2">
+             <img className="design" src="/item4.png" alt="" />
+             <h2>Item 1</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, amet!</p>
+             <button>Read more</button>
+           </div>
+          </div>
+          <div className="col-md-4">
+           <div>
+             <img className="design" src="/item1.png" alt="" />
+             <h2>Item 1</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, amet!</p>
+             <button>Read more</button>
+           </div>
+          </div>
+          <div className="col-md-4">
+           <div>
+             <img className="design" src="/item2.png" alt="" />
+             <h2>Item 1</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, amet!</p>
+             <button>Read more</button>
+           </div>
+          </div>
+          
+        </div>
       </div>
     );
 };
