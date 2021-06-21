@@ -3,7 +3,7 @@ import './header.css'
 
 const Header = () => {
     return (
-        <section className="features-service pb-0 pb-md-5 my-5">
+        <section className="header-service pb-0 pb-md-5 my-5">
         <div className="container mb-5">
             <div className="row mb-5 text-center text-lg-start">
             <div className="col-md-6 align-self-center order-2 order-lg-1">
